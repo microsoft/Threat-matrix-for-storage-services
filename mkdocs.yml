@@ -1,0 +1,90 @@
+site_name: Threat Matrix for Storage Services
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+  logo: assets/Microsoft.png
+  favicon: assets/mdc.png
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Tactics: 
+    - 'index.md'
+    - Reconnaissance:
+      - 'tactics/Reconnaissance/index.md'
+      - Storage account discovery: 'techniques/storage-account-discovery.md'
+      - Search engines: 'techniques/search-engines.md'
+      - Databases of publicly available storage accounts: 'techniques/databases-of-public-accounts.md'
+      - DNS/Passive DNS: 'techniques/dns-passive-dns.md'
+      - Victim-owned websites: 'techniques/victim-owned-websites.md'
+    - Initial Access:
+      - 'tactics/InitialAccess/index.md'
+      - Valid SAS token: 'techniques/valid-sas-token.md'
+      - Valid shared key: 'techniques/valid-shared-key.md'
+      - Authorized principal account: 'techniques/authorized-principal-account.md'
+      - Anonymous public read access: 'techniques/anonymous-public-read-access.md'
+      - SFTP credentials: 'techniques/sftp-credentials.md'
+      - NFS access: 'techniques/nfs-access.md'
+      - SMB access: 'techniques/smb-access.md'
+      - Object replication: 'techniques/object-replication.md'
+    - Persistence:
+      - 'tactics/Persistence/index.md'
+      - Firewall and virtual networks configuratioin changes: 'techniques/firewall-configuration-changes.md'
+      - Role-based access control permission: 'techniques/rbac-permission.md'
+      - Create SAS token: 'techniques/create-sas-token.md'
+      - Container access level property: 'techniques/container-access-level-property.md'
+      - SFTP account: 'techniques/sftp-account.md'
+      - Trusted Azure services: 'techniques/trusted-azure-services.md'
+      - Trusted access based on a managed identity: 'techniques/trusted-access-managed-identity.md'
+      - Private endpoint: 'techniques/private-endpoint.md'
+    - Defense Evasion:
+      - 'tactics/DefenseEvasion/index.md'
+      - Firewall and virtual networks configuratioin changes: 'techniques/firewall-configuration-changes.md'
+      - Role-based access control permission: 'techniques/rbac-permission.md'
+      - Storage data clone: 'techniques/storage-data-clone.md'
+      - Data transfer size limits: 'techniques/data-transfer-size-limits.md'
+      - Automated exfiltration: 'techniques/automated-exfiltration.md'
+      - Disable audit logs: 'techniques/disable-audit-logs.md'
+      - Disable cloud workload protection: 'techniques/disable-protection-service.md'
+      - Private endpoint: 'techniques/private-endpoint.md'
+      - Operations across geo replicas: 'techniques/operations-across-geo-replicas.md'
+    - Credential Access:
+      - 'tactics/CredentialAccess/index.md'
+      - Access key query: 'techniques/access-key-query.md'
+      - Cloud shell profiles: 'techniques/cloud-shell-profiles.md'
+      - Unsecured communication channel: 'techniques/unsecured-communication-channel.md'
+    - Discovery:
+      - 'tactics/Discovery/index.md'
+      - Storage service discovery: 'techniques/storage-service-discovery.md'
+      - Account configuration discovery: 'techniques/account-configuration-discovery.md'
+    - Lateral Movement:
+      - 'tactics/LateralMovement/index.md'
+      - Malicious content upload: 'techniques/malicious-content-upload.md'
+      - Malware distribution: 'techniques/malware-distribution.md'
+      - Trigger cross-service interaction: 'techniques/trigger-cross-service-interaction.md'
+      - Code injection: 'techniques/code-injection.md'
+    - Exfiltration:
+      - 'tactics/Exfiltration/index.md'
+      - Data transfer size limits: 'techniques/data-transfer-size-limits.md'
+      - Automated exfiltration: 'techniques/automated-exfiltration.md'
+      - Static website: 'techniques/static-website.md'
+      - Object replication: 'techniques/object-replication.md'
+    - Impact:
+      - 'tactics/Impact/index.md'
+      - Data corruption: 'techniques/data-corruption.md'
+      - Data encryption for impact (Ransomware): 'techniques/data-encryption-for-impact.md'
+      - Data manipulation: 'techniques/data-manipulation.md'
+  - About: 'about.md'
