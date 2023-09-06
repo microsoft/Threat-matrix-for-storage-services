@@ -20,4 +20,4 @@ hide:
 
 
 ???+ attention "Disclaimer"
-	The purpose of the Threat Matrix for storage services is to educate readers on the potential  tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them.
+	The purpose of the threat matrix for storage services is to educate readers on the potential  tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them.

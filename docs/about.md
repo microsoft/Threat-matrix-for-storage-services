@@ -7,7 +7,7 @@ hide:
 
 # About
 
-The purpose of the threat matrix for storage services is to conceptualize the known tactics, techniques, and procedures (TTP) that adversaries may use against this type accounts. Inspired from MITRE ATT&CK, the threat matrix for storage services is designed to give quick insight into a potential TTP that an adversary may be using in their attack campaign. 
+The purpose of the threat matrix for storage services is to conceptualize the known tactics, techniques, and procedures (TTP) that adversaries may use against this type accounts. Inspired from MITRE ATT&CK, the threat matrix for storage services is designed to give quick insight into a potential TTP that an adversaries may be using in their attack campaign. 
 
 <br>
 
